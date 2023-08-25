@@ -1,0 +1,35 @@
+##########################
+git basic commands
+#########################
+git init //will create a new local GIT repository.
+git init repo-name //will create repo in your local
+git remote add ELK https://github.com/sdk05/ELK.git
+git status //to show untracked/newly added files
+git add finame.name/ --all //will add to my local repo
+git commit -m "my commits" //commit to the locals
+git tag "v11.1" //create a tag
+git push --tags //push code to your repo
+git clone //clone code from remote to your local
+git pull //pull new changes code from remote to local
+
+####username####
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+#####git branch commands####
+git branch //should show all the local branches of your repo. The starred branch is your current branch.
+git branch --show-current
+git show-branch //show branch and commits as well
+git branch -a //To see local and remote branches with one command, use the -a (all) option.
+------to rename branch---
+git checkout feature19 //move to current branch
+git branch -m feature18 //Our branch now has the correct name in the local repository.
+git branch -m feature19 feature18
+
+----delete branch from remte--
+git push origin --delete feature19
+
+
+##### Remote repo setup check######
+git remote -v
+
