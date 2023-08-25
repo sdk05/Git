@@ -25,6 +25,7 @@ git branch -a //To see local and remote branches with one command, use the -a (a
 git checkout feature19 //move to current branch
 git branch -m feature18 //Our branch now has the correct name in the local repository.
 git branch -m feature19 feature18
+git push origin dev/master //add branch in last
 
 ----delete branch from remte--
 git push origin --delete feature19
